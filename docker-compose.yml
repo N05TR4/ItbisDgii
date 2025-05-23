@@ -1,0 +1,71 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  # Base de datos SQL Server
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: itbis-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - itbis-network
+    restart: unless-stopped
+
+  # API Backend
+  api:
+    build:
+      context: .
+      dockerfile: ItbisDgii.API/Dockerfile
+    container_name: itbis-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=DbItbisDgii;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=true;
+      - ConnectionStrings__IdentityConnection=Server=sqlserver,1433;Database=IdentityItbisDgii;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=true;
+      - JWTSettings__Key=1A292DE6-0E73-4D6D-9F32-8DB6A83E57BE
+      - JWTSettings__Issuer=ITBISAppIssuer
+      - JWTSettings__Audience=ITBISAppAudience
+      - JWTSettings__DurationInMinutes=30
+    ports:
+      - "5265:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - itbis-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/swagger"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Frontend React
+  frontend:
+    build:
+      context: ./itbis-dgii-frontend
+      dockerfile: Dockerfile
+    container_name: itbis-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    networks:
+      - itbis-network
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://localhost:5265/api
+
+networks:
+  itbis-network:
+    driver: bridge
+
+volumes:
+  sqlserver_data:
+    driver: local

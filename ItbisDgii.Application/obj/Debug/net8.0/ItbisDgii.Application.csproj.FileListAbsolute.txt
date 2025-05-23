@@ -1,0 +1,17 @@
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Application.deps.json
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Application.runtimeconfig.json
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Application.dll
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Application.pdb
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Domain.dll
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\bin\Debug\net8.0\ItbisDgii.Domain.pdb
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.csproj.AssemblyReference.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.AssemblyInfoInputs.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.AssemblyInfo.cs
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.csproj.CoreCompileInputs.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgi.49FA8D22.Up2Date
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.dll
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\refint\ItbisDgii.Application.dll
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.pdb
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.genruntimeconfig.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ref\ItbisDgii.Application.dll

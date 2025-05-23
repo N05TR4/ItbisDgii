@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|c:\\users\\jvasquezl\\desktop\\projects\\itbisdgii\\itbisdgii.test\\api\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|solutionrelative:itbisdgii.test\\api\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|c:\\users\\jvasquezl\\desktop\\projects\\itbisdgii\\itbisdgii.test\\api\\controllers\\comprobantesfiscalescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|solutionrelative:itbisdgii.test\\api\\controllers\\comprobantesfiscalescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|c:\\users\\jvasquezl\\desktop\\projects\\itbisdgii\\itbisdgii.test\\api\\controllers\\contribuyentescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF9C4B9-97C4-4673-B24E-DAE1047B728F}|ItbisDgii.Test\\ItbisDgii.Tests.csproj|solutionrelative:itbisdgii.test\\api\\controllers\\contribuyentescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195C5E4A-2BAC-46A7-9B42-65B313DC7AB0}|ItbisDgii.Application\\ItbisDgii.Application.csproj|c:\\users\\jvasquezl\\desktop\\projects\\itbisdgii\\itbisdgii.application\\behaviors\\validationsbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195C5E4A-2BAC-46A7-9B42-65B313DC7AB0}|ItbisDgii.Application\\ItbisDgii.Application.csproj|solutionrelative:itbisdgii.application\\behaviors\\validationsbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 369,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "ItbisDgii.Test\\API\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "ItbisDgii.Test\\API\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:06:03.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComprobantesFiscalesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\ComprobantesFiscalesControllerTests.cs",
+              "RelativeDocumentMoniker": "ItbisDgii.Test\\API\\Controllers\\ComprobantesFiscalesControllerTests.cs",
+              "ToolTip": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\ComprobantesFiscalesControllerTests.cs",
+              "RelativeToolTip": "ItbisDgii.Test\\API\\Controllers\\ComprobantesFiscalesControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:04:25.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContribuyentesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\ContribuyentesControllerTests.cs",
+              "RelativeDocumentMoniker": "ItbisDgii.Test\\API\\Controllers\\ContribuyentesControllerTests.cs",
+              "ToolTip": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Test\\API\\Controllers\\ContribuyentesControllerTests.cs",
+              "RelativeToolTip": "ItbisDgii.Test\\API\\Controllers\\ContribuyentesControllerTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:56:22.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationsBehaviors.cs",
+              "DocumentMoniker": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Application\\Behaviors\\ValidationsBehaviors.cs",
+              "RelativeDocumentMoniker": "ItbisDgii.Application\\Behaviors\\ValidationsBehaviors.cs",
+              "ToolTip": "C:\\Users\\jvasquezl\\Desktop\\Projects\\ItbisDgii\\ItbisDgii.Application\\Behaviors\\ValidationsBehaviors.cs",
+              "RelativeToolTip": "ItbisDgii.Application\\Behaviors\\ValidationsBehaviors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:47:26.877Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 142,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

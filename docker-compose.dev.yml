@@ -1,0 +1,44 @@
+# docker-compose.dev.yml
+version: '3.8'
+
+services:
+  # Solo base de datos para desarrollo
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: itbis-sqlserver-dev
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_dev_data:/var/opt/mssql
+    networks:
+      - itbis-network
+    restart: unless-stopped
+
+  # Frontend en modo desarrollo con hot reload
+  frontend-dev:
+    build:
+      context: ./itbis-dgii-frontend
+      dockerfile: Dockerfile.dev
+    container_name: itbis-frontend-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./itbis-dgii-frontend:/app
+      - /app/node_modules
+    networks:
+      - itbis-network
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://localhost:5265/api
+
+networks:
+  itbis-network:
+    driver: bridge
+
+volumes:
+  sqlserver_dev_data:
+    driver: local

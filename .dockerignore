@@ -1,0 +1,49 @@
+# .dockerignore (en la raíz del proyecto)
+
+# Directorios de compilación
+**/bin/
+**/obj/
+**/out/
+
+# Archivos de Visual Studio
+**/.vs/
+**/*.user
+**/*.suo
+**/*.cache
+**/.vscode/
+
+# Archivos de prueba
+**/TestResults/
+**/*Test*/
+
+# Frontend
+itbis-dgii-frontend/node_modules/
+itbis-dgii-frontend/dist/
+itbis-dgii-frontend/.env.local
+itbis-dgii-frontend/.env.*.local
+
+# Archivos de configuración local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs
+**/logs/
+**/*.log
+
+# Base de datos local
+**/*.db
+**/*.sqlite
+
+# Docker
+**/Dockerfile*
+**/docker-compose*
+**/.dockerignore
+
+# Git
+**/.git/
+**/.gitignore
+
+# Documentación
+**/README.md
+**/docs/
