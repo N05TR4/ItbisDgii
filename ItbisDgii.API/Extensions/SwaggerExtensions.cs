@@ -9,7 +9,6 @@ namespace ItbisDgii.API.Extensions
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
             {
-                // Configuración básica del documento sin versionamiento
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
 

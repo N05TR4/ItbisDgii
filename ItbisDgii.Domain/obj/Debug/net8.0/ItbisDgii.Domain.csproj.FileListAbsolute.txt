@@ -5,6 +5,7 @@ C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.AssemblyInfoInputs.cache
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.AssemblyInfo.cs
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.sourcelink.json
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.dll
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\refint\ItbisDgii.Domain.dll
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Domain\obj\Debug\net8.0\ItbisDgii.Domain.pdb

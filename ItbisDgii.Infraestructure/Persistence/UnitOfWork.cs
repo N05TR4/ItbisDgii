@@ -33,7 +33,7 @@ namespace ItbisDgii.Infraestructure.Persistence
             GC.SuppressFinalize(this);
         }
 
-        protected virtual void Dispose(bool disposing)
+        protected void Dispose(bool disposing)
         {
             if (!_disposed && disposing)
             {

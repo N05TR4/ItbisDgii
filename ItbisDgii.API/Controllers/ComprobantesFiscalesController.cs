@@ -55,30 +55,5 @@ namespace ItbisDgii.API.Controllers
             return CreatedAtAction(nameof(GetByContribuyente), new { rncCedula = result.RncCedula }, result);
         }
 
-        //[HttpPut("{id}")]
-        //[ProducesResponseType(StatusCodes.Status204NoContent)]
-        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //public async Task<ActionResult> Update(Guid id, UpdateComprobanteFiscalCommand command)
-        //{
-        //    if (id != command.Id)
-        //    {
-        //        return BadRequest("ID in URL does not match body");
-        //    }
-
-        //    _logger.LogInformation("Updating comprobante fiscal with ID: {Id}", id);
-        //    await _mediator.Send(command);
-        //    return NoContent();
-        //}
-
-        //[HttpDelete("{id}")]
-        //[ProducesResponseType(StatusCodes.Status204NoContent)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //public async Task<ActionResult> Delete(Guid id)
-        //{
-        //    _logger.LogInformation("Deleting comprobante fiscal with ID: {Id}", id);
-        //    await _mediator.Send(new DeleteComprobanteFiscalCommand { Id = id });
-        //    return NoContent();
-        //}
     }
 }

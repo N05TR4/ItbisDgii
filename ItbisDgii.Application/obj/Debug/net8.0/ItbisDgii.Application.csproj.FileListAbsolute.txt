@@ -9,6 +9,7 @@ C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\ne
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.AssemblyInfoInputs.cache
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.AssemblyInfo.cs
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.csproj.CoreCompileInputs.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.sourcelink.json
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgi.49FA8D22.Up2Date
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\ItbisDgii.Application.dll
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Application\obj\Debug\net8.0\refint\ItbisDgii.Application.dll

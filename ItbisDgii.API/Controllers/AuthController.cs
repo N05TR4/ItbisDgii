@@ -1,7 +1,6 @@
 ﻿using ItbisDgii.Application.DTOs.Users;
 using ItbisDgii.Application.Features.Auth.Commands.LoginUser;
 using ItbisDgii.Application.Features.Auth.Commands.RegisterUser;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ItbisDgii.API.Controllers

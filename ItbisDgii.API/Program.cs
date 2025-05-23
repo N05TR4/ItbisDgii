@@ -17,6 +17,7 @@ builder.Services.AddPersisrtenceInfraestructure(builder.Configuration);
 builder.Services.AddIdentityInfraestructure(builder.Configuration);
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -53,7 +54,7 @@ using (var scope = app.Services.CreateScope())
     catch (Exception ex)
     {
         logger.LogError(ex, "An error occurred while migrating or seeding the database: {Message}", ex.Message);
-        // En desarrollo, puedes hacer throw para ver el error completo
+        
         if (app.Environment.IsDevelopment())
         {
             throw;
@@ -67,6 +68,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 // Middleware de manejo de errores debe ir primero
 app.UseErrorHandlingMiddleware();
 

@@ -11,6 +11,7 @@ C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debu
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgii.Infraestructure.AssemblyInfoInputs.cache
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgii.Infraestructure.AssemblyInfo.cs
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgii.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgii.Infraestructure.sourcelink.json
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgi.40CCE8BE.Up2Date
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\ItbisDgii.Infraestructure.dll
 C:\Users\jvasquezl\Desktop\Projects\ItbisDgii\ItbisDgii.Infraestructure\obj\Debug\net8.0\refint\ItbisDgii.Infraestructure.dll

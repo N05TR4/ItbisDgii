@@ -30,15 +30,6 @@ namespace ItbisDgii.API.Controllers
             return Ok(result);
         }
 
-        //[HttpGet("paginated")]
-        //public async Task<ActionResult<PaginatedResponse<ContribuyenteDto>>> GetPaginated(
-        //[FromQuery] GetPaginatedContribuyentesQuery query)
-        //{
-        //    _logger.LogInformation("Getting paginated contribuyentes - Page: {PageNumber}, Size: {PageSize}",
-        //        query.PageNumber, query.PageSize);
-        //    var result = await _mediator.Send(query);
-        //    return Ok(result);
-        //}
 
         [HttpGet("{rncCedula}")]
         public async Task<ActionResult<ContribuyenteDto>> GetByRncCedula(string rncCedula)
@@ -56,25 +47,5 @@ namespace ItbisDgii.API.Controllers
             return CreatedAtAction(nameof(GetByRncCedula), new { rncCedula = result.Data.RncCedula }, result);
         }
 
-        //[HttpPut("{rncCedula}")]
-        //public async Task<ActionResult> Update(string rncCedula, UpdateContribuyenteCommand command)
-        //{
-        //    if (rncCedula != command.RncCedula)
-        //    {
-        //        return BadRequest("RNC/Cédula in URL does not match body");
-        //    }
-
-        //    _logger.LogInformation("Updating contribuyente with RNC/Cédula: {RncCedula}", rncCedula);
-        //    await _mediator.Send(command);
-        //    return NoContent();
-        //}
-
-        //[HttpDelete("{rncCedula}")]
-        //public async Task<ActionResult> Delete(string rncCedula)
-        //{
-        //    _logger.LogInformation("Deleting contribuyente with RNC/Cédula: {RncCedula}", rncCedula);
-        //    await _mediator.Send(new DeleteContribuyenteCommand { RncCedula = rncCedula });
-        //    return NoContent();
-        //}
     }
 }

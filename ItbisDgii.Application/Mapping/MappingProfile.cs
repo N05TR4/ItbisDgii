@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using ItbisDgii.Application.DTOs;
-using ItbisDgii.Application.Wrappers;
 using ItbisDgii.Domain.Entities;
 
 namespace ItbisDgii.Application.Mapping

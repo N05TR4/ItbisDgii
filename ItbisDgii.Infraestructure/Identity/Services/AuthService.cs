@@ -54,7 +54,7 @@ namespace ItbisDgii.Infraestructure.Identity.Services
 
             var rolesList = await _userManager.GetRolesAsync(usuario).ConfigureAwait(false);
             response.Roles = rolesList.ToList();
-            response.IsVerified = usuario.EmailConfirmed; // Corregido el nombre de la propiedad
+            response.IsVerified = usuario.EmailConfirmed;
 
             var refreshToken = GenerateRefreshToken(ipAddress);
             response.RefreshToken = refreshToken.Token;

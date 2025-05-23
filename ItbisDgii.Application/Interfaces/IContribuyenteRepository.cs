@@ -1,5 +1,4 @@
-﻿using ItbisDgii.Application.Wrappers;
-using ItbisDgii.Domain.Entities;
+﻿using ItbisDgii.Domain.Entities;
 
 namespace ItbisDgii.Application.Interfaces
 {

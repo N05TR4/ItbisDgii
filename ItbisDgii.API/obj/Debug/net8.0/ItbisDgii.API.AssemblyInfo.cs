@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ItbisDgii.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e17508c5cedbb4a3236c30e790ea630abbd11b35")]
 [assembly: System.Reflection.AssemblyProductAttribute("ItbisDgii.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ItbisDgii.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
